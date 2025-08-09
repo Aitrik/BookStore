@@ -64,7 +64,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-amber-800/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-amber-200 text-sm font-medium">
-            © ২০২৫ দৃষ্টি.com। সকল অধিকার সংরক্ষিত।
+            © ২০২৫ dristi2020.com। সকল অধিকার সংরক্ষিত।
           </p>
           
           <div className="flex space-x-5 mt-6 md:mt-0">

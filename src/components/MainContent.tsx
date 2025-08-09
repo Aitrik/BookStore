@@ -81,7 +81,7 @@ const MainContent = () => {
         <div className="flex items-center mb-8">
           <div className="w-1 h-8 bg-gradient-to-b from-amber-600 to-orange-600 rounded-full mr-4"></div>
           <h2 className="text-3xl font-bold text-amber-800">
-            আপের মনাট কাহিনী
+            আপের মনলট কাহিনী
           </h2>
         </div>
         <div className="grid sm:grid-cols-2 gap-8">
