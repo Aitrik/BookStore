@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-10">
           {/* About */}
           <div>
-            <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-white to-amber-200 bg-clip-text text-transparent">দৃষ্টি.com</h3>
+            <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-white to-amber-200 bg-clip-text text-transparent">দৃষ্টি</h3>
             <p className="text-amber-200 text-sm leading-relaxed mb-4">
               বাংলা সাহিত্য ও সংস্কৃতির অন্যতম প্রতিনিধি অনলাইন ম্যাগাজিন। 
               আমাদের লক্ষ্য বাংলা ভাষা ও সাহিত্যের প্রচার ও প্রসার।
