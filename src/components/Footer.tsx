@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-10">
           {/* About */}
           <div>
-            <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-white to-amber-200 bg-clip-text text-transparent">Dristi2020.com</h3>
+            <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-white to-amber-200 bg-clip-text text-transparent">দৃষ্টি.com</h3>
             <p className="text-amber-200 text-sm leading-relaxed mb-4">
               বাংলা সাহিত্য ও সংস্কৃতির অন্যতম প্রতিনিধি অনলাইন ম্যাগাজিন। 
               আমাদের লক্ষ্য বাংলা ভাষা ও সাহিত্যের প্রচার ও প্রসার।
@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="space-y-4 text-sm">
               <div className="flex items-center space-x-3 hover:translate-x-2 transition-transform duration-300">
                 <Mail size={18} className="text-amber-400" />
-                <span className="text-amber-200">info@Dristi2020.com</span>
+                <span className="text-amber-200">info@দৃষ্টি.com</span>
               </div>
               <div className="flex items-center space-x-3 hover:translate-x-2 transition-transform duration-300">
                 <Phone size={18} className="text-amber-400" />
@@ -64,7 +64,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-amber-800/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-amber-200 text-sm font-medium">
-            © ২০২৫ Dristi2020.com। সকল অধিকার সংরক্ষিত।
+            © ২০২৫ দৃষ্টি.com। সকল অধিকার সংরক্ষিত।
           </p>
           
           <div className="flex space-x-5 mt-6 md:mt-0">

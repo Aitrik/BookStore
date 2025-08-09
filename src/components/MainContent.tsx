@@ -63,7 +63,7 @@ const MainContent = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute bottom-3 right-3 bg-gradient-to-r from-amber-600 to-orange-600 text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">
-                  #রক্তকরবী #Dristi2020
+                  #রক্তকরবী #দৃষ্টি
                 </div>
               </div>
               <p className="text-gray-700 mb-4 leading-relaxed text-base">{article.excerpt}</p>

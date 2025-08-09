@@ -66,7 +66,7 @@ export default function Sidebar(): JSX.Element {
     {
       title: "মনলটি কাইনী",
       description: "রাজা তুমুল চাঁপা পড়ুন তাঁর নতুনের বইটি আমরা কেউই নই। এ কথা সমাসামায়িক মনে হয়... অর্থিং এ লেখায় ১৯৬৩-২৪ সালের। বরিন্দানাথ ঠাকুরের রক্তকরবী যে নাটক আজও সমসাময়ের প্রাসঙ্গিক...",
-      hashtags: "#বইভক্তরী #Dristi2020",
+      hashtags: "#বইভক্তরী #দৃষ্টি",
       coverImage: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=240&fit=crop"
     },
     {
