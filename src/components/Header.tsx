@@ -68,7 +68,7 @@ const Header = () => {
                   <span className="text-white font-bold text-lg"><Book /></span>
                 </div>
                 <h1 className="text-2xl md:text-3xl p-2 font-bold bg-gradient-to-r from-amber-800 via-orange-700 to-red-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 cursor-pointer whitespace-nowrap">
-                  দৃষ্টি.com
+                  দৃষ্টি
                 </h1>
               </div>
             </div>

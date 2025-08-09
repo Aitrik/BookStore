@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
               {/* Content */}
               <div className="relative z-10 p-8 text-white flex flex-col md:flex-row md:items-center md:justify-between">
                 <h2 className="text-5xl md:text-6xl p-3 font-extrabold bg-gradient-to-r from-amber-300 via-white to-blue-200 bg-clip-text text-transparent drop-shadow-lg">
-                  দৃষ্টি.com
+                  দৃষ্টি
                 </h2>
                 <p className="text-lg md:text-2xl text-amber-200 font-light drop-shadow-sm mt-2 md:mt-4 md:ml-6">
                   বইয়ের জগতে আপনার পথপ্রদর্শক
