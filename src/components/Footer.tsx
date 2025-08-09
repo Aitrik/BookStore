@@ -47,15 +47,15 @@ const Footer = () => {
             <div className="space-y-4 text-sm">
               <div className="flex items-center space-x-3 hover:translate-x-2 transition-transform duration-300">
                 <Mail size={18} className="text-amber-400" />
-                <span className="text-amber-200">info@দৃষ্টি.com</span>
+                <span className="text-amber-200">info@dristi2020.com</span>
               </div>
               <div className="flex items-center space-x-3 hover:translate-x-2 transition-transform duration-300">
                 <Phone size={18} className="text-amber-400" />
-                <span className="text-amber-200">+৮৮ ০১৭০০০০০০০০</span>
+                <span className="text-amber-200">+91 8017888222</span>
               </div>
               <div className="flex items-center space-x-3 hover:translate-x-2 transition-transform duration-300">
                 <MapPin size={18} className="text-amber-400" />
-                <span className="text-amber-200">ঢাকা, বাংলাদেশ</span>
+                <span className="text-amber-200">গেইথার্সবার্গ, ইউনিয়েটেড স্টেটস</span>
               </div>
             </div>
           </div>
