@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ThumbsUp, ThumbsDown } from 'lucide-react';
 
 interface ContentCardProps {
   image: string;
@@ -17,6 +18,40 @@ const ContentCard: React.FC<ContentCardProps> = ({
   category, 
   size = 'medium' 
 }) => {
+  const [likes, setLikes] = useState(0);
+  const [liked, setLiked] = useState(false);
+  
+  const [dislikes, setDislikes] = useState(0);
+  const [disliked, setDisliked] = useState(false);
+
+  const handleLike = () => {
+    if (liked) {
+      setLiked(false);
+      setLikes((prev) => prev - 1);
+    } else {
+      setLiked(true);
+      setLikes((prev) => prev + 1);
+      if (disliked) {
+        setDisliked(false);
+        setDislikes((prev) => prev - 1);
+      }
+    }
+  };
+
+  const handleDislike = () => {
+    if (disliked) {
+      setDisliked(false);
+      setDislikes((prev) => prev - 1);
+    } else {
+      setDisliked(true);
+      setDislikes((prev) => prev + 1);
+      if (liked) {
+        setLiked(false);
+        setLikes((prev) => prev - 1);
+      }
+    }
+  };
+
   const cardSizes = {
     small: 'w-full max-w-sm',
     medium: 'w-full max-w-md',
@@ -24,7 +59,7 @@ const ContentCard: React.FC<ContentCardProps> = ({
   };
 
   return (
-    <div className={`${cardSizes[size]} bg-white rounded-xl  shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-gray-300 group`}>
+    <div className={`${cardSizes[size]} bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-gray-300 group`}>
       <div className="relative">
         <img
           src={image}
@@ -37,6 +72,31 @@ const ContentCard: React.FC<ContentCardProps> = ({
             {category}
           </div>
         )}
+
+        {/* Like & Dislike buttons */}
+        <div className="absolute bottom-3 right-3 flex gap-2">
+          <button
+            onClick={handleLike}
+            className="flex items-center gap-1 bg-white/90 hover:bg-white rounded-full px-3 py-1 shadow-md transition"
+          >
+            <ThumbsUp
+              size={18}
+              className={`transition-colors duration-300 ${liked ? 'fill-green-500 text-green-500' : 'text-gray-500'}`}
+            />
+            <span className="text-sm font-medium">{likes}</span>
+          </button>
+
+          <button
+            onClick={handleDislike}
+            className="flex items-center gap-1 bg-white/90 hover:bg-white rounded-full px-3 py-1 shadow-md transition"
+          >
+            <ThumbsDown
+              size={18}
+              className={`transition-colors duration-300 ${disliked ? 'fill-red-500 text-red-500' : 'text-gray-500'}`}
+            />
+            <span className="text-sm font-medium">{dislikes}</span>
+          </button>
+        </div>
       </div>
       
       <div className="p-5">
